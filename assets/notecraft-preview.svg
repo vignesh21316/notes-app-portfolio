@@ -7,16 +7,16 @@
 
   <rect x="118" y="116" width="336" height="488" rx="28" fill="#FDF5EA"/>
   <rect x="118" y="116" width="336" height="488" rx="28" stroke="#F0E0C8" stroke-width="2"/>
-  <text x="148" y="164" fill="#A9532C" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">VANILLA JAVASCRIPT PORTFOLIO PROJECT</text>
-  <text x="148" y="228" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="48" font-weight="700">NoteCraft turns</text>
-  <text x="148" y="278" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="48" font-weight="700">quick ideas into</text>
-  <text x="148" y="328" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="48" font-weight="700">a clean workspace.</text>
-  <text x="148" y="382" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="22">A polished local-first notes app built</text>
-  <text x="148" y="413" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="22">with HTML, CSS, and JavaScript.</text>
+  <text x="148" y="164" fill="#A9532C" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">PERSONAL PRODUCTIVITY APP</text>
+  <text x="148" y="228" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="46" font-weight="700">Keep ideas, tasks,</text>
+  <text x="148" y="276" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="46" font-weight="700">and reminders in</text>
+  <text x="148" y="324" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="46" font-weight="700">one calm workspace.</text>
+  <text x="148" y="382" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="22">A local note-taking app built with</text>
+  <text x="148" y="413" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="22">HTML, CSS, and JavaScript.</text>
 
   <rect x="148" y="452" width="276" height="66" rx="18" fill="#FFFDFC"/>
   <rect x="148" y="452" width="276" height="66" rx="18" stroke="#F0E0C8" stroke-width="2"/>
-  <text x="170" y="484" fill="#A9532C" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.8">QUICK TIP</text>
+  <text x="170" y="484" fill="#A9532C" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.8">KEYBOARD SHORTCUT</text>
   <text x="170" y="515" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="19">Press Ctrl + Enter to save faster</text>
 
   <rect x="490" y="116" width="672" height="488" rx="28" fill="#FFFCF6"/>

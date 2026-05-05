@@ -4,6 +4,11 @@ NoteCraft is a modern browser-based notes dashboard built to showcase polished f
 
 ![NoteCraft preview](assets/notecraft-preview.svg)
 
+## Links
+
+- Repository: https://github.com/vignesh21316/notes-app-portfolio
+- Live demo: https://vignesh21316.github.io/notes-app-portfolio/
+
 ## Overview
 
 This project started as a simple notes app and was redesigned into a more portfolio-ready product experience. The focus was not only CRUD functionality, but also presentation, interaction quality, and clear state-driven behavior.
@@ -60,6 +65,10 @@ This project demonstrates more than basic frontend syntax. It shows:
 2. Open `index.html` in any modern browser.
 3. Start creating notes immediately.
 
+```bash
+git clone https://github.com/vignesh21316/notes-app-portfolio.git
+```
+
 ## GitHub Pages Deployment
 
 After pushing the repo to GitHub, you can publish it with GitHub Pages:
@@ -70,10 +79,10 @@ After pushing the repo to GitHub, you can publish it with GitHub Pages:
 4. Select the `main` branch and the `/ (root)` folder.
 5. Save the settings and wait for the site to publish.
 
-Your live URL will look like:
+Live URL:
 
 ```text
-https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/
+https://vignesh21316.github.io/notes-app-portfolio/
 ```
 
 ## Author

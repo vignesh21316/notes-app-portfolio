@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="NoteCraft is a polished local-first notes dashboard built with HTML, CSS, and JavaScript."
+    >
+    <meta name="theme-color" content="#d97745">
+    <title>NoteCraft | Smart Notes Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-glow page-glow-left" aria-hidden="true"></div>
+    <div class="page-glow page-glow-right" aria-hidden="true"></div>
+
+    <main class="app-shell">
+        <section class="hero-panel">
+            <p class="eyebrow">Vanilla JavaScript Portfolio Project</p>
+            <h1>NoteCraft turns quick ideas into a clean, searchable workspace.</h1>
+            <p class="hero-copy">
+                A polished local-first notes application built with HTML, CSS, and JavaScript.
+                It focuses on thoughtful UX, responsive layout, and practical productivity details.
+            </p>
+
+            <div class="hero-highlights">
+                <article class="highlight-card">
+                    <span class="highlight-label">Local-first</span>
+                    <p>Notes stay in your browser with no setup required.</p>
+                </article>
+                <article class="highlight-card">
+                    <span class="highlight-label">Fast workflow</span>
+                    <p>Search, pin, edit, and save notes in a few clicks.</p>
+                </article>
+                <article class="highlight-card">
+                    <span class="highlight-label">Interview-ready UI</span>
+                    <p>Modern layout, responsive cards, and clean component structure.</p>
+                </article>
+            </div>
+
+            <div class="shortcut-card">
+                <span class="shortcut-label">Quick tip</span>
+                <p>Press <kbd>Ctrl</kbd> + <kbd>Enter</kbd> while writing to save instantly.</p>
+            </div>
+        </section>
+
+        <section class="workspace-panel">
+            <div class="panel-heading">
+                <div>
+                    <p class="section-label">Compose note</p>
+                    <h2 id="formHeading">Capture your next idea</h2>
+                </div>
+                <button id="clearFormBtn" class="ghost-btn" type="button">Reset form</button>
+            </div>
+
+            <form id="noteForm" class="composer-card">
+                <input type="hidden" id="noteId">
+
+                <div class="field-row">
+                    <label class="field">
+                        <span>Title</span>
+                        <input
+                            id="titleInput"
+                            type="text"
+                            maxlength="60"
+                            placeholder="Weekly sprint ideas"
+                        >
+                    </label>
+
+                    <label class="field field-compact">
+                        <span>Accent</span>
+                        <select id="colorInput">
+                            <option value="sunset">Sunset</option>
+                            <option value="ocean">Ocean</option>
+                            <option value="sage">Sage</option>
+                            <option value="ember">Ember</option>
+                        </select>
+                    </label>
+                </div>
+
+                <label class="field">
+                    <span>Details</span>
+                    <textarea
+                        id="noteInput"
+                        rows="6"
+                        maxlength="600"
+                        placeholder="Write your note, tasks, or thoughts here..."
+                    ></textarea>
+                </label>
+
+                <div class="composer-footer">
+                    <div class="composer-meta">
+                        <span id="charCount">0 / 600 characters</span>
+                        <span id="statusMessage" aria-live="polite">Ready when you are.</span>
+                    </div>
+                    <button id="saveBtn" class="primary-btn" type="submit">Save note</button>
+                </div>
+            </form>
+
+            <div class="insights-row">
+                <article class="stat-card">
+                    <span>Total notes</span>
+                    <strong id="totalNotes">0</strong>
+                </article>
+                <article class="stat-card">
+                    <span>Pinned notes</span>
+                    <strong id="pinnedNotes">0</strong>
+                </article>
+                <article class="stat-card">
+                    <span>Words stored</span>
+                    <strong id="wordCount">0</strong>
+                </article>
+            </div>
+
+            <div class="controls-card">
+                <label class="search-field">
+                    <span>Search</span>
+                    <input id="searchInput" type="text" placeholder="Find notes by title or content">
+                </label>
+
+                <div class="filter-group" role="tablist" aria-label="Note filters">
+                    <button class="filter-btn is-active" type="button" data-filter="all">All</button>
+                    <button class="filter-btn" type="button" data-filter="pinned">Pinned</button>
+                    <button class="filter-btn" type="button" data-filter="today">Updated today</button>
+                </div>
+
+                <label class="sort-field">
+                    <span>Sort</span>
+                    <select id="sortSelect">
+                        <option value="newest">Newest first</option>
+                        <option value="oldest">Oldest first</option>
+                        <option value="alphabetical">A to Z</option>
+                    </select>
+                </label>
+            </div>
+
+            <section class="notes-section">
+                <div class="notes-header">
+                    <div>
+                        <p class="section-label">Your workspace</p>
+                        <h2>Saved notes</h2>
+                    </div>
+                    <p id="resultsSummary" class="results-summary">No notes yet.</p>
+                </div>
+
+                <div id="notesGrid" class="notes-grid" aria-live="polite"></div>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#F4EEE4"/>
+  <circle cx="171" cy="128" r="170" fill="#EAA77E" fill-opacity="0.28"/>
+  <circle cx="1128" cy="563" r="188" fill="#7CA6D1" fill-opacity="0.2"/>
+  <rect x="80" y="78" width="1120" height="564" rx="34" fill="#FFF9F1"/>
+  <rect x="80" y="78" width="1120" height="564" rx="34" stroke="#F1E4D2" stroke-width="2"/>
+
+  <rect x="118" y="116" width="336" height="488" rx="28" fill="#FDF5EA"/>
+  <rect x="118" y="116" width="336" height="488" rx="28" stroke="#F0E0C8" stroke-width="2"/>
+  <text x="148" y="164" fill="#A9532C" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">VANILLA JAVASCRIPT PORTFOLIO PROJECT</text>
+  <text x="148" y="228" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="48" font-weight="700">NoteCraft turns</text>
+  <text x="148" y="278" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="48" font-weight="700">quick ideas into</text>
+  <text x="148" y="328" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="48" font-weight="700">a clean workspace.</text>
+  <text x="148" y="382" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="22">A polished local-first notes app built</text>
+  <text x="148" y="413" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="22">with HTML, CSS, and JavaScript.</text>
+
+  <rect x="148" y="452" width="276" height="66" rx="18" fill="#FFFDFC"/>
+  <rect x="148" y="452" width="276" height="66" rx="18" stroke="#F0E0C8" stroke-width="2"/>
+  <text x="170" y="484" fill="#A9532C" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.8">QUICK TIP</text>
+  <text x="170" y="515" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="19">Press Ctrl + Enter to save faster</text>
+
+  <rect x="490" y="116" width="672" height="488" rx="28" fill="#FFFCF6"/>
+  <rect x="490" y="116" width="672" height="488" rx="28" stroke="#F0E0C8" stroke-width="2"/>
+
+  <text x="530" y="160" fill="#A9532C" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.8">COMPOSE NOTE</text>
+  <text x="530" y="205" fill="#1F2933" font-family="Georgia, Times New Roman, serif" font-size="34" font-weight="700">Capture your next idea</text>
+
+  <rect x="530" y="232" width="388" height="58" rx="18" fill="white"/>
+  <rect x="530" y="232" width="388" height="58" rx="18" stroke="#E8DACA" stroke-width="2"/>
+  <text x="556" y="268" fill="#83919E" font-family="Segoe UI, Arial, sans-serif" font-size="19">Weekly sprint ideas</text>
+
+  <rect x="938" y="232" width="184" height="58" rx="18" fill="white"/>
+  <rect x="938" y="232" width="184" height="58" rx="18" stroke="#E8DACA" stroke-width="2"/>
+  <text x="966" y="268" fill="#1F2933" font-family="Segoe UI, Arial, sans-serif" font-size="19">Sunset</text>
+
+  <rect x="530" y="308" width="592" height="126" rx="22" fill="white"/>
+  <rect x="530" y="308" width="592" height="126" rx="22" stroke="#E8DACA" stroke-width="2"/>
+  <text x="556" y="347" fill="#83919E" font-family="Segoe UI, Arial, sans-serif" font-size="19">Plan homepage polish</text>
+  <text x="556" y="378" fill="#83919E" font-family="Segoe UI, Arial, sans-serif" font-size="19">Review interview preparation notes</text>
+  <text x="556" y="409" fill="#83919E" font-family="Segoe UI, Arial, sans-serif" font-size="19">Ship a project that feels complete</text>
+
+  <rect x="530" y="454" width="174" height="84" rx="22" fill="#FFF5EC"/>
+  <rect x="530" y="454" width="174" height="84" rx="22" stroke="#F0D6BF" stroke-width="2"/>
+  <text x="556" y="487" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="18">Total notes</text>
+  <text x="556" y="523" fill="#1F2933" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">12</text>
+
+  <rect x="724" y="454" width="174" height="84" rx="22" fill="#EEF6FF"/>
+  <rect x="724" y="454" width="174" height="84" rx="22" stroke="#D7E6F7" stroke-width="2"/>
+  <text x="750" y="487" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="18">Pinned</text>
+  <text x="750" y="523" fill="#1F2933" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">4</text>
+
+  <rect x="918" y="454" width="204" height="84" rx="22" fill="#F2FAF0"/>
+  <rect x="918" y="454" width="204" height="84" rx="22" stroke="#DCEAD8" stroke-width="2"/>
+  <text x="944" y="487" fill="#5C6670" font-family="Segoe UI, Arial, sans-serif" font-size="18">Words stored</text>
+  <text x="944" y="523" fill="#1F2933" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">482</text>
+
+  <rect x="530" y="560" width="276" height="18" rx="9" fill="#EDE6DD"/>
+  <rect x="820" y="560" width="158" height="18" rx="9" fill="#EDE6DD"/>
+  <rect x="992" y="560" width="130" height="18" rx="9" fill="#EDE6DD"/>
+</svg>
